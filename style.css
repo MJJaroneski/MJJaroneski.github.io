@@ -21,12 +21,15 @@ header{
     border-radius:0;
     transition:0;
     font-size:30px;
+    text-align: center;
 }
 button{
     height:30px;
     border:0;
     background-color:white;
     border-radius:10px;
+   
+   
 }
 button:hover{
     color:white;
@@ -110,15 +113,9 @@ body{
     text-align:center;
     vertical-align:middle;
 }
-foottext{
-    position:fixed;
-    bottom:5px;
-}
+
 .clearfix::after{
     content:"";
     display:block;
     clear:both;
-}
-#current, #other{
-    transition:.7s;
 }
